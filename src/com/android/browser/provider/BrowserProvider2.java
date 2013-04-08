@@ -57,7 +57,6 @@ import com.android.browser.R;
 import com.android.browser.UrlUtils;
 import com.android.browser.widget.BookmarkThumbnailWidgetProvider;
 import com.android.common.content.SyncStateContentProviderHelper;
-import com.google.common.annotations.VisibleForTesting;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -801,7 +800,6 @@ public class BrowserProvider2 extends SQLiteContentProvider {
         return uri.getBooleanQueryParameter(BrowserContract.CALLER_IS_SYNCADAPTER, false);
     }
 
-    @VisibleForTesting
     public void setWidgetObserver(ContentObserver obs) {
         mWidgetObserver = obs;
     }
