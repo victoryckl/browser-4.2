@@ -18,7 +18,7 @@ package com.android.xbrowser.view;
 
 import android.content.Context;
 import android.database.DataSetObserver;
-import android.provider.BrowserContract;
+import com.android.external.BrowserContract;
 import android.util.AttributeSet;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;

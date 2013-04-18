@@ -26,10 +26,10 @@ import android.database.DatabaseUtils;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.BaseColumns;
-import android.provider.BrowserContract.Bookmarks;
-import android.provider.BrowserContract.Combined;
-import android.provider.BrowserContract.History;
-import android.provider.BrowserContract.Searches;
+import com.android.external.BrowserContract.Bookmarks;
+import com.android.external.BrowserContract.Combined;
+import com.android.external.BrowserContract.History;
+import com.android.external.BrowserContract.Searches;
 import android.util.Log;
 import android.webkit.WebIconDatabase;
 
